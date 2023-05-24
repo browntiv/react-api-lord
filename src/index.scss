@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css?family=Special+Elite");
+@import "./variables";
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: $base-color;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #634940;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #200d0b;
+  opacity: 0.6;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #200d0b;
+  opacity: 1;
+}

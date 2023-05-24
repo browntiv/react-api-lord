@@ -1,0 +1,55 @@
+@import "./../../variables";
+
+.pagination-container {
+    text-align: center;
+
+    .pagination {
+        list-style: none;
+        display: inline-block;
+        padding: 0;
+        margin-top: 10px;
+
+        a {
+            float: left;
+            display: block;
+            text-decoration: none;
+            color: #fff;
+            border: 1px solid transparent;
+            background: transparent;
+            &:hover {
+                background-color: $base-color;
+                color: #fff;
+            }
+            &.active,
+            &:active {
+                background-color: $base-color;
+            }
+        }
+
+        li {
+            display: inline;
+            text-align: center;
+            a {
+                text-decoration: none;
+                color: #fff;
+            }
+
+            &.active {
+                .page-link {
+                    background-color: $base-color;
+                    border-color: white;
+                    float: left;
+                    text-decoration: none;
+                    color: #fff;
+                }
+            }
+            &.disabled {
+                background-color: $base-color;
+                border-color: white;
+                float: left;
+                text-decoration: none;
+                color: #fff;
+            }
+        }
+    }
+}

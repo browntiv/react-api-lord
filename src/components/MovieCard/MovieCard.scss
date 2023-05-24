@@ -1,0 +1,21 @@
+.movie-card {
+    background-color: #563f37;
+    transition: 0.3s;
+    border: 3px solid #4a3731;
+
+    .movie-name {
+        color: white;
+        text-decoration: none;
+    }
+
+    .movie-minutes{
+        color: rgb(198, 198, 198);
+    }
+
+    &:hover {
+        background-color: #4a3731;
+    }
+
+    &.detail {
+    }
+}

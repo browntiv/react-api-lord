@@ -1,0 +1,32 @@
+.quote {
+    font-family: "Special Elite", cursive;
+    background: #c48f7e;
+    border-radius: 0 20px;
+
+    blockquote {
+        font-weight: 100;
+        font-size: 2rem;
+        line-height: 1.4;
+        position: relative;
+        margin: 0;
+        padding: 0.5rem;
+    }
+
+    blockquote:before {
+        content: "“";
+        left: -5rem;
+        top: -2rem;
+    }
+
+    blockquote:after {
+        content: "”";
+        right: -5rem;
+        bottom: 1rem;
+    }
+
+    .character-name {
+        line-height: 3;
+        text-align: right;
+        padding-right: 1rem;
+    }
+}
